@@ -26,7 +26,7 @@ public class UiStepDefinitions {
         options.addArguments("user-data-dir=C:/Users/Elvina/AppData/Local/Google/Chrome/User Data\\Profile 1");
         options.addArguments("profile-directory=Profile 1"); // Replace 'Default' if another profile is used
 
-        driver = new ChromeDriver(options);
+            driver = new ChromeDriver(options);
 
     }
 
